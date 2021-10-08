@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Drone Flight - 1</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+
+  <!-- <link rel="icon" href="https://discoverthreejs.com/favicon.ico" type="image/x-icon"> -->
+
+  <link href="./styles/index.css" rel="stylesheet" type="text/css">
+
+  <script type="module" src="./bundle.js"></script>
+</head>
+
+<body>
+
+  <div class="top">
+    <h1>Drone Flight</h1>
+
+    <div class="inline">
+      <label for="space_upload">Choose space (glb, gltf)</label>
+      <input type="file" id="space_upload" name="model_uploads" accept=".glb, .gltf" />
+    </div>
+
+    <div class="inline">
+      <label for="path_uploads">Choose path (txt)</label>
+      <input type="file" id="path_uploads" name="text_uploads" accept=".txt" />
+    </div>
+  </div>
+
+
+  <div id="scene-container">
+    <!-- Our <canvas> will be inserted here -->
+  </div>
+
+</body>
+
+</html>
